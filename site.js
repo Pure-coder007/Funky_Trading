@@ -197,7 +197,7 @@ const serviceLibrary = [{
 
 const botAnswers = {
   services: "Funky Universal Trading Limited offers online advertising, offline advertising, advertising placement, brand promotion, payment-related technical services, gift shop operations, and real estate solutions. These services are structured to help clients improve visibility, strengthen trust, and access more practical commercial support from one company.",
-  contact: "You can contact the team by phone on +234 810 011 8023, by email at funkytrade729@gmail.com, or directly on WhatsApp via 08100118023. The contact page form also opens WhatsApp automatically so enquiries can move faster.",
+  contact: "You can contact the team by phone on +234 810 011 8023, by email at funkytrade729@gmail.com, or directly on WhatsApp via 07039713489. The contact page form also opens WhatsApp automatically so enquiries can move faster.",
   products: "Our product-focused side includes customized gifts, hampers, plaques, mugs, personalized items, corporate gifts, promotional gifts, and other presentation-ready products for both personal and business use.",
   real_estate: "Our real estate services cover property sourcing, marketing, advisory support, investment opportunities, and client-property matching. We help present opportunities more clearly so clients can make decisions with more confidence.",
   payments: "Payment-related technical services are part of our commercial support offering. They are designed to improve reliability, support smoother payment-related operations, and strengthen customer confidence around technical touchpoints.",
@@ -210,7 +210,7 @@ const botAnswers = {
   location: "Funky Universal Trading Limited is based in Lagos, Nigeria and supports enquiries for advertising, real estate, gifting, and technical services from that base."
 };
 
-const whatsappNumber = "2348100118023";
+const whatsappNumber = "2347039713489";
 
 function shuffleItems(items) {
   const copy = [...items];
