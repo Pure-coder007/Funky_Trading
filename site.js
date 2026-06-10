@@ -1,5 +1,4 @@
-const heroSlides = [
-  {
+const heroSlides = [{
     image: "pics/google ads.jpg",
     tag: "Digital Reach",
     title: "Performance campaigns that place your brand exactly where attention is already moving",
@@ -21,6 +20,13 @@ const heroSlides = [
     chips: ["Brand Strategy", "Creative Direction", "Promotion"]
   },
   {
+    image: "pics/customized_pillow2.jpg",
+    tag: "Gift Shop",
+    title: "Beautiful customized gift items that make business gestures and personal moments feel more premium",
+    text: "From branded plaques to thoughtful presentation pieces, we create gift items that feel polished, memorable, and suitable for appreciation, promotion, and celebration.",
+    chips: ["Customized Gifts", "Corporate Items", "Presentation"]
+  },
+  {
     image: "pics/real estate5.png",
     tag: "Real Estate",
     title: "Property opportunities presented with the same clarity as premium marketing campaigns",
@@ -29,8 +35,7 @@ const heroSlides = [
   }
 ];
 
-const aboutSlides = [
-  {
+const aboutSlides = [{
     image: "pics/brand2.png",
     tag: "Vision",
     title: "A multi-service company built to become a trusted global brand",
@@ -60,8 +65,7 @@ const aboutSlides = [
   }
 ];
 
-const modalSlides = [
-  {
+const modalSlides = [{
     image: "pics/flower2.jpg",
     tag: "Gift Experience",
     title: "Beautiful presentation creates stronger emotional value",
@@ -93,8 +97,7 @@ const modalSlides = [
   }
 ];
 
-const serviceLibrary = [
-  {
+const serviceLibrary = [{
     image: "pics/google ads.jpg",
     title: "Google Advertising Campaigns",
     text: "This image reflects our digital ad services, where businesses are promoted through targeted Google campaigns that improve reach, clicks, and commercial visibility.",
@@ -194,7 +197,7 @@ const serviceLibrary = [
 
 const botAnswers = {
   services: "Funky Universal Trading Limited offers online advertising, offline advertising, advertising placement, brand promotion, payment-related technical services, gift shop operations, and real estate solutions. These services are structured to help clients improve visibility, strengthen trust, and access more practical commercial support from one company.",
-  contact: "You can contact the team by phone on +234 810 011 8023, by email at funkytrade729@gmail.com, or directly on WhatsApp via 07018562146. The contact page form also opens WhatsApp automatically so enquiries can move faster.",
+  contact: "You can contact the team by phone on +234 810 011 8023, by email at funkytrade729@gmail.com, or directly on WhatsApp via 08100118023. The contact page form also opens WhatsApp automatically so enquiries can move faster.",
   products: "Our product-focused side includes customized gifts, hampers, plaques, mugs, personalized items, corporate gifts, promotional gifts, and other presentation-ready products for both personal and business use.",
   real_estate: "Our real estate services cover property sourcing, marketing, advisory support, investment opportunities, and client-property matching. We help present opportunities more clearly so clients can make decisions with more confidence.",
   payments: "Payment-related technical services are part of our commercial support offering. They are designed to improve reliability, support smoother payment-related operations, and strengthen customer confidence around technical touchpoints.",
@@ -484,7 +487,9 @@ function setupSupportBot() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  createCarousel(document.querySelector("[data-carousel='hero']"), heroSlides, 5200, { scaleOut: "scale(1.01)" });
+  createCarousel(document.querySelector("[data-carousel='hero']"), heroSlides, 5200, {
+    scaleOut: "scale(1.01)"
+  });
   createCarousel(document.querySelector("[data-carousel='about']"), aboutSlides, 6100);
   renderRandomServices();
   setupModal();
