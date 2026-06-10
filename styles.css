@@ -1940,7 +1940,9 @@ section {
     right: 0;
     top: calc(100% + 10px);
     display: grid;
+    justify-items: start;
     justify-content: stretch;
+    align-items: start;
     gap: 16px;
     flex: initial;
     padding: 18px;
@@ -1976,6 +1978,8 @@ section {
     width: 100%;
     display: grid;
     gap: 10px;
+    justify-content: start;
+    align-items: start;
     justify-items: start;
   }
 
