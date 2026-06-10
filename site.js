@@ -210,7 +210,7 @@ const botAnswers = {
   location: "Funky Universal Trading Limited is based in Lagos, Nigeria and supports enquiries for advertising, real estate, gifting, and technical services from that base."
 };
 
-const whatsappNumber = "2347018562146";
+const whatsappNumber = "2348100118023";
 
 function shuffleItems(items) {
   const copy = [...items];
