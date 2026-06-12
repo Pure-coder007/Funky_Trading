@@ -2071,7 +2071,7 @@ section {
   }
 
   .brand {
-    gap: 8px;
+    gap: 2px;
     align-items: center;
   }
 
@@ -2080,11 +2080,27 @@ section {
   }
 
   .brand-copy {
-    display: none;
+    display: block;
+    min-width: 0;
+    margin-left: -8px;
+  }
+
+  .brand-copy h1 {
+    font-size: 0.42rem;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+  }
+
+  .brand-copy p {
+    margin-top: 2px;
+    font-size: 0.32rem;
+    line-height: 1.15;
   }
 
   .hero-copy h2 {
-    font-size: clamp(1.45rem, 7vw, 1.95rem);
+    max-width: 260px;
+    font-size: clamp(1.18rem, 6vw, 1.56rem);
+    line-height: 1.02;
   }
 
   .page-hero-copy h2 {
@@ -2097,9 +2113,27 @@ section {
     line-height: 1.42;
   }
 
+  .hero-copy p {
+    max-width: 100%;
+    font-size: 0.56rem;
+    line-height: 1.22;
+    margin: 10px 0 14px;
+  }
+
   .eyebrow-badge,
   .eyebrow {
-    font-size: 0.76rem;
+    font-size: 0.58rem;
+  }
+
+  .eyebrow-badge {
+    margin-bottom: 10px;
+    padding: 7px 10px;
+    gap: 6px;
+  }
+
+  .eyebrow-badge::before {
+    width: 7px;
+    height: 7px;
   }
 
   .section-head h3,
@@ -2144,8 +2178,17 @@ section {
   }
 
   .hero-grid {
-    padding: 36px 0 8px;
-    gap: 12px;
+    padding: 28px 0 4px;
+    gap: 10px;
+  }
+
+  .hero-actions .cta {
+    padding: 11px 16px;
+    font-size: 0.82rem;
+  }
+
+  .hero-metrics {
+    display: none;
   }
 
   .hero-side {
@@ -2153,41 +2196,32 @@ section {
   }
 
   .hero-spotlight {
-    padding: 12px;
+    padding: 10px;
   }
 
   .hero-spotlight h3 {
-    font-size: 0.96rem;
-    line-height: 1.12;
-  }
-
-  .hero-side-grid {
-    gap: 8px;
-    margin-top: 8px;
-  }
-
-  .hero-side-grid .mini-card {
-    padding: 10px 12px;
-    font-size: 0.74rem;
+    margin: 10px 0 6px;
+    font-size: 0.84rem;
+    line-height: 1.08;
   }
 
   .carousel-chip-row {
-    gap: 8px;
-    margin-top: 12px;
+    gap: 6px;
+    margin-top: 8px;
   }
 
   .carousel-chip {
-    padding: 5px 8px;
-    font-size: 0.68rem;
+    padding: 4px 7px;
+    font-size: 0.58rem;
   }
 
   .carousel-meta {
-    margin-top: 14px;
-    gap: 10px;
+    margin-top: 10px;
+    gap: 8px;
   }
 
   .carousel-progress {
-    font-size: 0.8rem;
+    font-size: 0.68rem;
   }
 
   .cta {

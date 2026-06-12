@@ -381,7 +381,7 @@ function setupModal() {
   window.setInterval(() => {
     const item = modalSlides[Math.floor(Math.random() * modalSlides.length)];
     openModal(item);
-  }, 70000);
+  }, 180000);
 }
 
 function setupWhatsappForms() {
